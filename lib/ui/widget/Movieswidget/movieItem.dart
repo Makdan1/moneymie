@@ -22,10 +22,13 @@ class MovieItem extends StatelessWidget {
             SizedBox(
               width: 10,
             ),
+            Flexible(
+              child:
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
+
                 Text(
                   movieModel.title,
                   style: TextStyle(
@@ -54,7 +57,7 @@ class MovieItem extends StatelessWidget {
                   )
                 ]),
               ],
-            )
+            ))
           ]),
           Divider(
             color: Colors.grey,
